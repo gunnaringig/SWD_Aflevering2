@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace SWD_Mediator
 {
-    class ConcreteColleauge2
+    class ConcreteColleauge2 : Colleague
     {
+
     }
 }

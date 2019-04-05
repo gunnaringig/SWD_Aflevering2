@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace SWD_Mediator
 {
-    class Colleague
-    {
+   abstract class Colleague
+    {  
+    protected mediator mediator;
+
+        public Colleague(mediator mediator)
+
+        {
+            this.mediator = mediator;
+        }
+
     }
 }
+

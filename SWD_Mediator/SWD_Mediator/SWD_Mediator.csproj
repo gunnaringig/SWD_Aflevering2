@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Colleauge\Colleague.cs" />
+    <Compile Include="Colleauge\ConcreteColleauge1.cs" />
+    <Compile Include="Colleauge\ConcreteColleauge2.cs" />
+    <Compile Include="Mediator\mediator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

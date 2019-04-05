@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace SWD_Mediator
 {
-    class mediator
+   abstract class mediator
     {
+        public abstract void send(string message, Colleague colleague);
     }
 }
