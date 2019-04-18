@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-namespace SWD_Mediator
+namespace SWD_Mediator.User
 {
-    class ConcreteColleauge2 : Colleague
+    public interface IUser
     {
-
+        void sendMessage(string message);
+        void AddUser(IUser user);
     }
 }

@@ -10,17 +10,13 @@ namespace SWD_Mediator
     {
         static void Main(string[] args)
         {
-            ConcreteMediator mediator = new ConcreteMediator();
-            ConcreteColleagueA cA = new ConcreteColleagueA(mediator);
-            ConcreteColleagueB cB = new ConcreteColleagueB(mediator);
 
-            mediator.ConcreteColleagueA = cA;
-            mediator.ConcreteColleagueB = cB;
+                Imediator mediator = new concreteMediator();
+                IUser user1 = new concreteUser1(mediator);
+                mediator.AddUser(user1);
+                user1.SendMessage("message 1");
+                Console.ReadLine();
 
-            cA.send("testing");
-            cB.send("responding to testing");
-
-            Console.ReadKey();
         }
     }
 }
