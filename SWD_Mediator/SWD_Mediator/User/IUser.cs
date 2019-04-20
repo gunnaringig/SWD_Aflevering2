@@ -8,7 +8,7 @@ namespace SWD_Mediator.User
 {
     public interface IUser
     {
-        void sendMessage(string message);
+        void SendMessage(string message);
         void AddUser(IUser user);
     }
 }

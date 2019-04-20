@@ -1,0 +1,7 @@
+C:\Users\Blank\Desktop\IKT\4. semester\I4SWD\SWD_Aflevering2\SWD_Mediator\SWD_Mediator\obj\Debug\SWD_Mediator.csprojAssemblyReference.cache
+C:\Users\Blank\Desktop\IKT\4. semester\I4SWD\SWD_Aflevering2\SWD_Mediator\SWD_Mediator\obj\Debug\SWD_Mediator.csproj.CoreCompileInputs.cache
+C:\Users\Blank\Desktop\IKT\4. semester\I4SWD\SWD_Aflevering2\SWD_Mediator\SWD_Mediator\bin\Debug\SWD_Mediator.exe.config
+C:\Users\Blank\Desktop\IKT\4. semester\I4SWD\SWD_Aflevering2\SWD_Mediator\SWD_Mediator\bin\Debug\SWD_Mediator.exe
+C:\Users\Blank\Desktop\IKT\4. semester\I4SWD\SWD_Aflevering2\SWD_Mediator\SWD_Mediator\bin\Debug\SWD_Mediator.pdb
+C:\Users\Blank\Desktop\IKT\4. semester\I4SWD\SWD_Aflevering2\SWD_Mediator\SWD_Mediator\obj\Debug\SWD_Mediator.exe
+C:\Users\Blank\Desktop\IKT\4. semester\I4SWD\SWD_Aflevering2\SWD_Mediator\SWD_Mediator\obj\Debug\SWD_Mediator.pdb

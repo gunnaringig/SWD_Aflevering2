@@ -7,16 +7,21 @@ using System.Threading.Tasks;
 
 namespace SWD_Mediator.User
 {
-    public class concreteUser1 : IUser
+    public class ConcreteUser1 : IUser
     {
-        protected Imediator mediator;
-        public concreteUser1(Imediator mediator)
+        protected IMediator Mediator;
+        public ConcreteUser1(IMediator mediator)
         {
-            this.mediator = mediator;
+            this.Mediator = mediator;
         }
-        public void sendMessage(string message)
+        public void SendMessage(string message)
         {
-            mediator.Broadcast(message, this);
+            Mediator.Broadcast(message, this);
+        }
+
+        public void AddUser(IUser user)
+        {
+
         }
     }
 }

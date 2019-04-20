@@ -43,11 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Mediator\concreteMediator.cs" />
-    <Compile Include="Mediator\Imediator.cs" />
+    <Compile Include="Mediator\ConcreteMediator.cs" />
+    <Compile Include="Mediator\IMediator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="User\concreteUser1.cs" />
+    <Compile Include="User\ConcreteUser1.cs" />
     <Compile Include="User\IUser.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -7,10 +7,10 @@ using SWD_Mediator.User;
 
 namespace SWD_Mediator.Mediator
 {
-    public interface Imediator
+    public interface IMediator
     {
-        void AddUser(IUser User);
+        void AddUser(IUser user);
         void Broadcast(string message, IUser sender);
-        void Broadcast(string message, concreteUser1 concreteUser1);
+        //void Broadcast(string message, ConcreteUser1 concreteUser1);
     }
 }
