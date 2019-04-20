@@ -9,8 +9,6 @@ namespace SWD_Mediator.Mediator
 {
     public interface IMediator
     {
-        void AddUser(IUser user);
-        void Broadcast(string message, IUser sender);
-        //void Broadcast(string message, ConcreteUser1 concreteUser1);
+        void Notify(object sender, string ev);
     }
 }

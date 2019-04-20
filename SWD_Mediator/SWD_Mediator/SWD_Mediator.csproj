@@ -47,8 +47,9 @@
     <Compile Include="Mediator\IMediator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="User\ConcreteUser1.cs" />
-    <Compile Include="User\IUser.cs" />
+    <Compile Include="User\Widget1.cs" />
+    <Compile Include="User\Widget.cs" />
+    <Compile Include="User\Widget2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

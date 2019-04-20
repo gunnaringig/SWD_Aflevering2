@@ -10,21 +10,30 @@ namespace SWD_Mediator.Mediator
 {
     public class ConcreteMediator : IMediator
     {
-        List<IUser> user = new List<IUser>();
+        private readonly Widget1 _concreteWidget1;
+        private readonly Widget2 _concreteWidget2;
 
-        public void AddUser(IUser user)
+        public ConcreteMediator(Widget1 concreteWidget1, Widget2 concreteWidget2)
         {
-            user.AddUser(user);
+            this._concreteWidget1 = concreteWidget1;
+            this._concreteWidget1.SetMediator(this);
+            this._concreteWidget2 = concreteWidget2;
+            this._concreteWidget2.SetMediator(this);
         }
-        public void Broadcast(string message, IUser sender)
+        public void Notify(object sender, string ev)
         {
-            Console.WriteLine(message);
-            //Missing broadcast message
+            if (ev == "A")
+            {
+                Console.WriteLine("Mediator reacts on A and triggers following operations:");
+                this._concreteWidget2.DoC();
+            }
+
+            if (ev == "D")
+            {
+                Console.WriteLine("Mediator reacts on D and triggers following operations:");
+                this._concreteWidget1.DoB();
+                this._concreteWidget2.DoC();
+            }
         }
-
-        //public void Broadcast(string message, ConcreteUser1 concreteUser1)
-        //{
-
-        //}
     }
 }
