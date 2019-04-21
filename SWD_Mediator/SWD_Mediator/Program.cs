@@ -18,35 +18,28 @@ namespace SWD_Mediator
             Widget2 widget2 = new Widget2();
             ConcreteMediator mediator = new ConcreteMediator(widget1, widget2);
 
-            Console.WriteLine("Choose A or B for widget 1");
+            Console.WriteLine("Choose operation A, B, C or D");
 
             var input = Console.ReadKey();
 
             switch (input.Key) //Switch on Key enum
             {
                 case ConsoleKey.A:
+                    Console.Clear();
                     widget1.DoA();
-                    //Console.Clear();
                     break;
                 case ConsoleKey.B:
+                    Console.Clear();
                     widget1.DoB();
-                    //Console.Clear();
                     break;
-            }
-
-
-
-
-            Console.WriteLine("Choose C or D for widget 2");
-            switch (input.Key) //Switch on Key enum
-            {
+            
                 case ConsoleKey.C:
+                    Console.Clear();
                     widget2.DoC();
-                    //Console.Clear();
                     break;
                 case ConsoleKey.D:
+                    Console.Clear();
                     widget2.DoD();
-                    //Console.Clear();
                     break;
             }
 

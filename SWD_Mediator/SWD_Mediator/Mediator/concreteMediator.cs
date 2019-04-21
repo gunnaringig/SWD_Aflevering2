@@ -28,6 +28,18 @@ namespace SWD_Mediator.Mediator
                 this._concreteWidget2.DoC();
             }
 
+            //if(ev == "B")
+            //{
+            //    Console.WriteLine("Mediator reacts on B and triggers following opertaions:");
+            //    this._concreteWidget2.DoD();
+            //}
+
+            //if(ev == "C")
+            //{
+            //    Console.WriteLine("Mediator reacts on C and triggers the following operatoins:");
+            //    this._concreteWidget1.DoA();
+            //}
+
             if (ev == "D")
             {
                 Console.WriteLine("Mediator reacts on D and triggers following operations:");
