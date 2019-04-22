@@ -43,13 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Mediator\ConcreteMediator.cs" />
-    <Compile Include="Mediator\IMediator.cs" />
+    <Compile Include="Telephone\ConcreteTelephone.cs" />
+    <Compile Include="Telephone\ITelephone.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="User\Widget1.cs" />
-    <Compile Include="User\Widget.cs" />
-    <Compile Include="User\Widget2.cs" />
+    <Compile Include="Teletubbie\Lala.cs" />
+    <Compile Include="Teletubbie\BaseTeletubbie.cs" />
+    <Compile Include="Teletubbie\Po.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
