@@ -12,15 +12,15 @@ namespace SWD_Mediator
     {
         static void Main(string[] args)
         {
-            Widget1 widget1 = new Widget1();
-            Widget2 widget2 = new Widget2();
-            ConcreteMediator mediator = new ConcreteMediator(widget1, widget2);
+            Lala myLala = new Lala();
+            Po myPo = new Po();
+            ConcreteMediator mediator = new ConcreteMediator(myLala, myPo);
 
-            Console.WriteLine("Client triggers operation A.");
-            widget1.DoA();
+            Console.WriteLine("Clint asks Lala to dance");
+            myLala.Dance();
 
-            Console.WriteLine("Client triggers operation D.");
-            widget2.DoD();
+            //Console.WriteLine("Client triggers operation D.");
+            //myPo.DoD();
         }
     }
 }

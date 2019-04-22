@@ -7,7 +7,7 @@ using SWD_Mediator.User;
 
 namespace SWD_Mediator.Mediator
 {
-    public interface IMediator
+    public interface ITelephone
     {
         void Notify(object sender, string ev);
     }
